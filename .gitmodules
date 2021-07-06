@@ -1,3 +1,12 @@
 [submodule "Actionneurs_GR/lib/Adafruit-PWM-Servo-Driver-Library"]
 	path = Actionneurs_GR/lib/Adafruit-PWM-Servo-Driver-Library
 	url = git@github.com:adafruit/Adafruit-PWM-Servo-Driver-Library.git
+[submodule "Actionneurs_GR/lib/Info-2021_Interface"]
+	path = Actionneurs_GR/lib/Info-2021_Interface
+	url = git@github.com:RobotikUTT/Info-2021_Interface.git
+[submodule "Actionneurs_GR/lib/arduino-mcp2515"]
+	path = Actionneurs_GR/lib/arduino-mcp2515
+	url = git@github.com:autowp/arduino-mcp2515.git
+[submodule "Actionneurs_GR/lib/ArduinoSTL"]
+	path = Actionneurs_GR/lib/ArduinoSTL
+	url = git@github.com:mike-matera/ArduinoSTL.git
