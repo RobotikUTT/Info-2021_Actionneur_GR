@@ -5,10 +5,8 @@
 #include <Adafruit_PWMServoDriver.h>
 
 //CAN :
-// #include "can.h"
-// #include "protocol.gen.hpp"
-
-// #include "serial.hpp"
+#include "can.h"
+#include "serial.hpp"
 
 //Servos :
 #include <Servo.h>
