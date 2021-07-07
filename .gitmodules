@@ -11,3 +11,12 @@
 [submodule "lib/Info-2021_Interface"]
 	path = lib/Info-2021_Interface
 	url = https://github.com/RobotikUTT/Info-2021_Interface
+[submodule "lib/Adafruit-PWM-Servo-Driver-Library"]
+	path = lib/Adafruit-PWM-Servo-Driver-Library
+	url = git@github.com:adafruit/Adafruit-PWM-Servo-Driver-Library.git
+[submodule "lib/arduino-mcp2515"]
+	path = lib/arduino-mcp2515
+	url = git@github.com:autowp/arduino-mcp2515.git
+[submodule "lib/ArduinoSTL"]
+	path = lib/ArduinoSTL
+	url = git@github.com:mike-matera/ArduinoSTL.git
