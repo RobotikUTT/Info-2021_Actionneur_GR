@@ -3,8 +3,6 @@
 //includes :
 #include <Wire.h>
 #include <Adafruit_PWMServoDriver.h>
-#include "pins.h"
-#include "params.h"
 
 //CAN :
 #include "can.h"
@@ -24,14 +22,6 @@ Adafruit_PWMServoDriver pca = Adafruit_PWMServoDriver(0x55);
 #define USMIN 1000    // This is the rounded 'minimum' microsecond length based on the minimum pulse of 150
 #define USMAX 2000    // This is the rounded 'maximum' microsecond length based on the maximum pulse of 600
 #define SERVO_FREQ 50 // Analog servos run at ~50 Hz updates
-
-SerialHandler serialHandler;
-
-PololuA4983 stepperFront(STEP_PIN_FRONT, DIR_PIN_FRONT, EN_PIN_FRONT, MIN_DELAY_F);
-PololuA4983 stepperBack(STEP_PIN_BACK, DIR_PIN_BACK, EN_PIN_BACK, MIN_DELAY_B);
-
-StepperControl controlFront(&stepperFront, END_STOP_PIN_F, MAX_STEP_F, MAX_HEIGHT_F, STANDBY_HEIGHT_F, END_STOP_POS_F, MOTOR_POS_F, POS_MM_OFFSET_F);
-StepperControl controlBack(&stepperBack, END_STOP_PIN_B, MAX_STEP_B, MAX_HEIGHT_B, STANDBY_HEIGHT_B, END_STOP_POS_B, MOTOR_POS_B, POS_MM_OFFSET_B);
 
 void setServoAngle(uint8_t n, double degrees)
 {
